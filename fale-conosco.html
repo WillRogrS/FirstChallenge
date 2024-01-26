@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Teste</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function mudafoto (foto) {
+            document.getElementById("icone").scr = foto;
+        }
+
+    </script>
+</head>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+              <hgroup>
+                <h1>Google Glass</h1>
+                <h2>Bem vindo ao site teste</h2>
+              </hgroup>
+                <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li onmouseover="mudaFoto('imagens/home.png')"><a href="home.html">Home</a></li>
+                    <li><a href="specs.html">especificações</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Multimidia</a></li>
+                    <li><a href="">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+        <footer id="rodape">
+            <p>Copyright &copy; 2023 - by Willian Roger <br>
+                <a href="" target="_blank">Facebook</a> |
+                <a href="" target="_blank">Twitter</a> 
+            </p>
+        </footer>   
+    </div>
+</body>
+</html>
